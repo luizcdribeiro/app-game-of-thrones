@@ -11,16 +11,31 @@ body, h2, p{
 }
 }
 
-img {
+.no img {
   display: block;
-  width: 100%;
+  width: 500px;
+    float: left;
+}
+
+h1{
+    float: right;
+    width: 800px;
+    margin-right: 40px;
+    line-height: 40px
+}
+
+footer{
+    display:  none
 }
 
 
 
 
 
-@media(max-width: 600px) {
+
+
+
+@media(max-width: 375px) {
     
     * {
 	    box-sizing: border-box;
@@ -35,6 +50,9 @@ img {
     h1 {
       display: none;
   }
+    .no{
+        display: none;
+    }
 
     .principal { 
     background: #ffffff;
