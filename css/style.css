@@ -111,52 +111,52 @@ img {
     
     p {
         margin-top: 40px;
-        font-size: 18px;
+        font-size: 1.125em;
     }
     
     .botao1{
-        border-radius: 30px;
-        margin: 30px 0px 0px 20px;
-        background-color: blue;
-        width: 300px;
+        margin: 30px 0px 0px 0px;
+        background-color: #ffffff;
+        width: 250px;
         height: 50px;
-        border: 1px solid blue;
-        font-size: 18px;
+        border: 3px solid #ee3e80;
+        font-size: 1.125em;
         font-weight: bold;
-        color: #ffffff;
+        color: #ee3e80;
         font-family: 'Cinzel Decorative', cursive, Helvetica ;
-        font-weight: 700
+        transition: all .5s ease-out;
     }
+    
     .botao1:hover{
         background-color: #ee3e80;
-        border: 1px solid #ee3e80;
+        border: 1px solid #ffffff;
         -webkit-transition: 0.5s ease-in;
         -moz-transition: 0.5s ease-in;
         -o-transition: 0.5s ease-in;
         transition: 0.5s ease-in;
+        color: #ffffff;
     }
     
     .botao2{
-        border-radius: 30px;
-        margin: 30px 0px 0px 20px;
-        background-color: blue;
-        width: 300px;
+        margin: 30px 0px 0px 0px;
+        background-color: #ffffff;
+        width: 250px;
         height: 50px;
-        border: 1px solid blue;
-        font-size: 18px;
+        border: 3px solid #ee3e80;
+        font-size: 1.125em;
         font-weight: bold;
-        color: #ffffff;
+        color: #ee3e80;
         font-family: 'Cinzel Decorative', cursive, Helvetica ;
-        font-weight: 700
+        transition: all .5s ease-out;
     }
     
     .botao2:hover{
+        color: #ffffff;
         background-color: #ee3e80;
-        border: 1px solid #ee3e80;
+        border: 1px solid #ffffff;
         -webkit-transition: 0.5s ease-in;
-        -moz-transition: 0.5s ease-in;
-        -o-transition: 0.5s ease-in;
         transition: 0.5s ease-in;
+        
         
     }
     
